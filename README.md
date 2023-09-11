@@ -59,6 +59,14 @@ In Pd, "Preferences -> Path" and add where you put this folder
 
 You should now be able to add these objects in any Pd patch using "CMD/CTRL+1" and typing the name of an instrument.
 
+NEW Preset System:
+==================
+As of version 0.3, all modules have a preset recall and save system. Each module can hold 8 presets by default.
+Choose a preset with the small black box towards the top of the UI.
+Click the 'wrt' bang to write a preset into the selected bank.
+Click 'lod' to recall the current preset.
+Preset 1 will be loaded by deafult upon object creation.
+
 About modules:
 ==============
 If a module has multiple inlets, the rightmost inlet is always used for modulation sources: use it by having a message box
