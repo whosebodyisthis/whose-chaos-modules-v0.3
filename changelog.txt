@@ -1,0 +1,7 @@
+v0.3 changelog:
+
+Tidied up folder structure (abstractions and presets in folders)
+Added ‘w.’ prefix to abstractions to avoid namespace collisions
+Implemented preset save/recall system
+Tried to optimise [w.resonbp~]
+[choreographer] UI change: mult and rate are now number boxes.
