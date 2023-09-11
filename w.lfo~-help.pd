@@ -1,0 +1,13 @@
+#N canvas 876 266 469 184 10;
+#X obj 11 8 cnv 15 100 60 empty empty lfo~\ Help 7 12 1 18 #ffffff #404040 0;
+#X obj 0 38 cnv 15 250 120 empty empty empty 20 12 0 14 #e0e0e0 #404040 0;
+#X text 4 44 control-rate modulation source. five;
+#X text 4 57 waveforms: sine \, triangle \, saw \, square;
+#X text 4 70 and stepped sample-and-hold.;
+#X text 5 87 Inlets:;
+#X text 5 122 Outlets:;
+#X text 6 136 1: (control) signal out;
+#X floatatom 258 124 5 0 0 0 - - - 0;
+#X text 5 104 1: control routing (freq + amt);
+#X obj 258 38 w.lfo~;
+#X connect 10 0 8 0;

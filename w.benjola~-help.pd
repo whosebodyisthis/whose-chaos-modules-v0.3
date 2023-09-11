@@ -1,0 +1,15 @@
+#N canvas 1012 226 532 247 10;
+#X obj 0 8 cnv 15 100 60 empty empty w.benjola~\ Help 7 12 1 18 #ffffff #404040 0;
+#X obj 1 42 cnv 15 250 180 empty empty empty 20 12 0 14 #e0e0e0 #404040 0;
+#X text 7 123 Inlets:;
+#X text 26 165 key-word + \$1 in *message* box);
+#X text 8 182 Outlets:;
+#X text 9 196 1: (signal) mono signal out;
+#X obj 264 43 w.benjola~;
+#X text 6 49 Imitation/approximation of Rob;
+#X text 6 63 Hordijk's 'Benjolin';
+#X text 7 77 Chaotic sound-source.;
+#X text 7 90 Just mess around with stuff and see;
+#X text 7 103 what happens. 'raw' mode works well.;
+#X text 7 135 1: external audio in (mutes vco1);
+#X text 7 150 2: (control) modulation routing (slider;

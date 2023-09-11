@@ -1,0 +1,16 @@
+#N canvas 1012 226 508 288 10;
+#X obj 0 8 cnv 15 100 60 empty empty w.benjolin~\ Help 7 12 1 18 #ffffff #404040 0;
+#X obj 1 42 cnv 15 250 210 empty empty empty 20 12 0 14 #e0e0e0 #404040 0;
+#X text 7 155 Inlets:;
+#X text 26 186 key-word + \$1 in *message* box);
+#X text 8 205 Outlets:;
+#X text 7 171 1: (control) modulation routing (slider;
+#X obj 271 43 w.benjolin~;
+#X text 6 49 Recreation of Rob Hordijk's;
+#X text 6 63 Benjolin.;
+#X text 7 77 Chaotic sound-source implementing;
+#X text 7 90 the famous 'Rungler' circuit.;
+#X text 7 103 By using the toggles at the bottom;
+#X text 7 116 of the patch \, you can switch on any;
+#X text 7 129 number of oscillators to the output.;
+#X text 9 219 1: (signal) mono signal out;
