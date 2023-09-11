@@ -272,7 +272,7 @@
 #X floatatom 207 55 5 0 0 1 - \$0fdbckMultIn \$0fdbckMult 0;
 #X obj 244 56 cnv 15 20 15 empty empty cross-mod 0 7 1 12 #ffffff #404040 0;
 #X obj 250 181 hsl 60 15 0 5000 0 0 \$0Q \$0QIn Q:\ 508.47 15 7 1 10 #fcfcfc #000000 #000000 0 1;
-#X obj 21 23 cnv 15 100 15 empty empty hillary~ 2 8 1 12 #9c00ff #ffffff 0;
+#X obj 21 23 cnv 15 100 15 empty empty w.hillary~ 2 8 1 12 #9c00ff #ffffff 0;
 #X obj 137 23 hsl 128 15 0.001 1 1 0 \$0vol empty vol 10 7 1 10 #fcfcfc #000000 #000000 0 1;
 #X obj 207 84 bng 15 250 50 0 \$0start empty start 19 7 1 10 #fcfcfc #000000 #000000;
 #X obj 207 103 bng 15 250 50 0 \$0stop empty stop 19 7 1 10 #fcfcfc #000000 #000000;
@@ -341,7 +341,7 @@
 #X obj 754 513 s \$0filt11In;
 #X obj 734 491 s \$0filt10In;
 #X obj 774 535 s \$0filt12In;
-#N canvas 1066 148 450 451 sliderdisplay 1;
+#N canvas 1066 148 450 451 sliderdisplay 0;
 #X msg 22 116 label \$1;
 #X obj 22 32 * 100;
 #X obj 22 53 int;
@@ -701,7 +701,7 @@
 #X obj 62 477 r \$0freq;
 #X obj 802 557 s \$0freqIn;
 #X obj 48 566 abstractions/duffing~;
-#N canvas 268 104 999 950 presetSave 1;
+#N canvas 268 104 999 950 presetSave 0;
 #X obj 105 470 r \$0preset;
 #X obj 23 9 r \$0write;
 #X obj 165 516 loadbang;
